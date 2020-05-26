@@ -22,10 +22,5 @@ pipeline {
                 sh 'sh mvnw test'
             }
         }
-        stage('Deploy') { 
-            steps {
-                //
-            }
-        }
     }
 }
