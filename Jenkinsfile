@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh './mvnw test'
+                sh 'sh mvnw test'
             }
         }
         stage('Deploy') { 
